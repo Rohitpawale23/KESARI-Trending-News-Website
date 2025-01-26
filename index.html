@@ -1,0 +1,43 @@
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KESARI - News App</title>
+ <link rel="icon" href="/images/fevicon2.ico" type="image/icon">
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js"></script>
+ 
+</head>
+<body>
+  <div class="news-app">
+    <div class="toggle-dark-mode">
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+    <h1>KESARI - Trending News</h1>
+    <div class="controls">
+      <input type="text" id="country" placeholder="Enter Country Code (e.g., us, in)" />
+      <select id="category">
+        <option value="business">Business</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="health">Health</option>
+        <option value="science">Science</option>
+        <option value="sports">Sports</option>
+        <option value="technology">Technology</option>
+      </select>
+      <button onclick="fetchNews()">Get News</button>
+    </div>
+    <div class="news-container" id="news-container">
+      <!-- News cards will appear here -->
+    </div>
+    <div class="pagination" id="pagination">
+      <!-- Pagination buttons will appear here -->
+    </div>
+  </div>
+
+
+</body>
+</html>
+

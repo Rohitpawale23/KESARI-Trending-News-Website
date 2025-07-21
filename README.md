@@ -35,13 +35,27 @@ Whether you're interested in local news or global events, KESARI brings the worl
     * CSS3 (with a focus on responsive design)
     * JavaScript
 * **API Integration**:
-    * News API (or similar news aggregation API)
+    * News API 
 
 ---
 
 ## API Integration
 
-KESARI leverages a powerful news API (e.g., News API) to fetch real-time news data. To run this application, you will need an **API key** from your chosen news provider.
+KESARI leverages a powerful news API to fetch real-time news data. To run this application, you will need an **API key** from your chosen news provider.
+
+---
+
+
+## SnapShpots
+
+<img width="2559" height="1277" alt="image" src="https://github.com/user-attachments/assets/c3b3847c-7e27-4632-b2fd-bd9a40c6cbc8" />
+
+
+<img width="2557" height="1194" alt="image" src="https://github.com/user-attachments/assets/294dfa7a-8248-4b47-9736-a0d0356d828f" />
+
+
+<img width="2559" height="1269" alt="image" src="https://github.com/user-attachments/assets/383819a6-c342-419c-90b6-97c7f101189b" />
+
 
 ---
 

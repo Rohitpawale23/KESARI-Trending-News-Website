@@ -13,7 +13,8 @@ async function fetchNews(page = 1) {
     return;
   }
 
-  const apiKey = '2c6b2c6d77a4901f7c114a7ae6b1891e'; 
+  // const = '2c6b2c6d77a4901f7c114a7ae6b1891e'; 
+  const apiKey  = "YOUR_API_KEY_HERE"; // Replace with your actual API key
   const apiUrl = `http://api.mediastack.com/v1/news?access_key=${apiKey}&countries=${country}&categories=${category}&languages=en&limit=${pageSize}&offset=${(page - 1) * pageSize}&sort=published_desc`;
 
   newsContainer.innerHTML = '<p class="loading">Loading...</p>';
